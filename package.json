@@ -1,6 +1,6 @@
 {
   "name": "@rgglez/astro-aside",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Astro aside/callout component with note, tip, caution, warning, and danger variants. Requires Tailwind CSS.",
   "type": "module",
   "exports": {
