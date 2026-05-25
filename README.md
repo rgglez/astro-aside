@@ -13,13 +13,13 @@ Astro aside/callout component with five variants: `note`, `tip`, `caution`, `war
 ## Installation
 
 ```bash
-npm install astro-aside
+npm install @rgglez/astro-aside
 ```
 
 ## Usage
 
 ```mdx
-import Aside from "astro-aside";
+import Aside from "@rgglez/astro-aside";
 
 <Aside type="note">
   This is a note.
@@ -58,14 +58,14 @@ If you are using Tailwind v4, make sure the package source is included in your c
 module.exports = {
   content: [
     // ...
-    "./node_modules/astro-aside/src/**/*.astro",
+    "./node_modules/@rgglez/astro-aside/src/**/*.astro",
   ],
 };
 ```
 
 ```css
 /* global.css (v4) */
-@source "../node_modules/astro-aside/src";
+@source "../node_modules/@rgglez/astro-aside/src";
 ```
 
 ## Development
