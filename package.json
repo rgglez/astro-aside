@@ -1,0 +1,30 @@
+{
+  "name": "astro-aside",
+  "version": "0.1.0",
+  "description": "Astro aside/callout component with note, tip, caution, warning, and danger variants. Requires Tailwind CSS.",
+  "type": "module",
+  "exports": {
+    ".": "./src/Aside.astro"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "astro",
+    "astro-component",
+    "aside",
+    "callout",
+    "tailwind"
+  ],
+  "author": "Rodolfo González González",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=4.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  }
+}
