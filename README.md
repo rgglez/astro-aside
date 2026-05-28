@@ -18,9 +18,13 @@ npm install @rgglez/astro-aside
 
 ## Usage
 
-```mdx
+```javascript
 import Aside from "@rgglez/astro-aside";
+```
 
+### Usage in `.mdx` files
+
+```mdx
 <Aside type="note">
   This is a note.
 </Aside>
@@ -29,6 +33,22 @@ import Aside from "@rgglez/astro-aside";
   Custom title overrides the default label.
 </Aside>
 ```
+
+### Usage in `.astro` files
+
+```astro
+<Aside type="warning">
+  This works in any `.astro` file, not just MDX.
+</Aside>
+
+<Aside type="danger" title="Breaking change">
+  Custom title overrides the default label.
+</Aside>
+```
+
+## Limitations
+
+This is an Astro component (`.astro`). It cannot be imported directly into React, Vue, Svelte, or other framework components. Use it only from `.astro` or `.mdx` files.
 
 ## Props
 
